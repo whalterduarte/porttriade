@@ -1,0 +1,141 @@
+/* Estilos CSS do seu arquivo */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+#portifoliomain{
+  margin-bottom: 100px;
+  overflow-x: hidden !important;
+}
+.card {
+  width: 300px;
+  max-width: 400px;
+  min-width: 350px;
+  height: 150px;
+  border: 2px solid transparent;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.c1,
+.c2,
+.c3,
+.c4,
+.c5,
+.c6 {
+  border-image: linear-gradient(45deg, var(--dark4), var(--dark1), var(--dark2), var(--dark3), var(--dark4), var(--dark1)) 1;
+  border-image-slice: 1;
+  border-color: transparent;
+}
+
+
+.gitlink{
+  width: 50px;
+
+}
+.namePortProject {
+  position: relative; 
+  z-index: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+ 
+  background-size: cover;
+  background-position: center;
+
+}
+
+.namePortProject::before,
+.namePortProject::after {
+  content: '';
+  position: absolute;
+  z-index: -1; 
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  transition: background 3s ease; 
+}
+
+.namePortProject:hover::before,
+.namePortProject:hover::after {
+  background: rgba(0, 0, 0, 0);
+}
+
+.namePortProject h1{
+  font-size: 20px;
+  text-align: start;
+  width: 95%;
+}
+
+.prproject{
+  color: #fff;
+  font-size: 15px;
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.5s, visibility 2s;
+}
+.namePortProject:hover .prproject {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.viewproject{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  height: 25px;
+  width: 95%;
+  color: #EDF1F7;
+  background-color: #ff1457;
+  
+}
+
+.card.c1 {
+  background-image: url('../assets/img/pizzariawhalter.png');
+  background-size: cover;
+}
+
+.card.c2 {
+  background-image: url('../assets/img/mario.png');
+  background-size: cover;
+}
+
+.card.c3 {
+  background-image: url('../assets/img/clima.png');
+  background-size: cover;
+}
+.card.c4 {
+  background-image: url('../assets/img/imc.png');
+  background-size: cover;
+}
+.card.c5 {
+  background-image: url('../assets/img/dog.png');
+  background-size: cover;
+}
+
+.card.c6:hover a{
+  color: #ff1457;
+}
+
+@media screen and (max-width: 950px) {
+    #portifoliomain{
+      position: relative;
+      height: 100%;
+    
+    }
+    
+}

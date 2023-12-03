@@ -1,0 +1,116 @@
+#habilidades{
+height: 100%;
+}
+#habtime{
+  overflow-x: hidden !important;
+}
+.design-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+  padding: 100px 0;
+  font-family: Jost;
+}
+
+.design {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timeline {
+  width: 80%;
+  height: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline-content {
+  padding: 20px;
+  background: #2b2c30;
+  
+  border-radius: 5px;
+  color: white;
+  padding: 1.75rem;
+  transition: 0.4s ease;
+  overflow-wrap: break-word !important;
+  margin: 1rem;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+.timeline-component {
+  margin: 0px 20px 20px 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .timeline {
+    display: grid;
+    grid-template-columns: 1fr 3px 1fr;
+  }
+  .timeline-middle {
+    position: relative;
+    background-color: #000000;
+    width: 3px;
+    height: 100%;
+  }
+  .main-middle {
+    opacity: 0;
+  }
+  .timeline-circle {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #ff1457;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+}
+
+.deschabilidades{
+  position: relative;
+  
+}
+.certificado p{
+  letter-spacing: 0;
+  font-size: 15px;
+  color: #EDF1F7
+  
+}
+.anoDesc {
+  background-color: var(--text);
+  color: #2b2c30;
+  border-radius: 10px;
+  width: 100%;
+  padding: 8px;
+}
+
+.certificado hr{
+  background: #333; 
+  height: 1px;
+  border: none;
+}
+.logoPort {
+  width: 50px;
+  height: 50px;
+  
+  border-radius: 50%;
+  transition: transform 0.3s;
+  
+}
+
+.logoPort:hover {
+  transform: scale(1.2); 
+  cursor: pointer; 
+}
+#maintimeline{
+  text-align: center;
+}
+

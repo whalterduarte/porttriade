@@ -1,0 +1,56 @@
+#footer {
+  background: rgb(43,44,48);
+  background: linear-gradient(175deg, rgba(43,44,48,1) 0%, rgba(53,49,59,1) 38%, rgba(97,60,76,0.697111593059937) 78%, rgba(50,45,55,1) 100%);
+  overflow-x: hidden;
+  
+}
+
+#mainfooter{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+#contatofooter{
+  width: 50%;
+  max-width: 500px;
+  
+}
+
+#conhecimentosfooter{
+  border:solid 2px rgb(69, 65, 77);
+  width: 50%;
+  max-width: 500px;
+  height: 100%;
+  border-radius: 20px;
+  margin: 10px;
+}
+#conhecimentosfooter h1{
+  margin: 10px;
+  font-size: 18px;
+}
+
+#icones{
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+#icones img{
+  width: 20%;
+  
+}
+@media screen and (max-width: 750px) {
+  #mainfooter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  }
+  #contatofooter{
+    margin-bottom: 20px;
+    width: 100%;
+  }
+}

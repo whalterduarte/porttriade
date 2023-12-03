@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/barra.css" />
+    <script src="js/script.js" defer></script>
+    <script src="js/app.js" defer></script>
+    <script src="js/particles.min.js" defer></script>
+    <script src="js/particles.json" defer></script>
+    <link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <title>Portiólio | Whalter</title>
+  </head>
+  <body >
+    <!--Menu-->
+    <nav class="navigation" id="navigation">
+      <button onclick="toogleSideBar()" id="showSidebar">
+        <img src="assets/svg/list.svg" alt="" />
+      </button>
+      <h1 class="menuPortifolio">Portiólio</h1>
+      <!--SECTION-->
+      <ul>
+        <button onclick="toogleSideBar()" id="showSidebar">
+          <img src="assets/svg/x-lg.svg" />
+        </button>
+        <li><a href="#particles-js" class="navLink"  onclick="closeSideBar()">Home</a></li>
+  <li><a href="#sobre" class="navLink" onclick="closeSideBar()">Sobre mim</a></li>
+  <li><a href="#habilidades" class="navLink" onclick="closeSideBar()">Habilidades</a></li>
+  <li><a href="#footer" class="navLink" onclick="closeSideBar()">Portfólio</a></li>
+  
+      </ul>
+      <!--SOCIAL-->
+      <div class="navSocial">
+        <a href="https://github.com/whalterduarte"> <img src="assets/svg/github.svg" /></a>
+        <a href="https://www.instagram.com/whalterdart/"><img src="assets/svg/instagram.svg" /></a>
+      </div>
+    </nav>
+  
+    <!--Main home-->
+    <div id="particles-js"></div>
+    <div  id="main"   >
+        <div class="mainhome  " >
+         
+          <div class="contentLeft">
+            <div data-aos="fade-right" data-aos-duration="800" class="conteudo">
+              <h1>Olá, eu sou</h1>
+              <h3 class="animar"><cor>W</cor>halter <ap><cor>D</cor>uarte!</ap></ap></h3>
+              <h2>Desenvolvedor <span class="animated"></span></h2>
+            </div>
+            <div
+              data-aos="fade-up"
+              data-aos-duration="800"
+              class="contentbuttons"
+            >
+              <a href="https://www.linkedin.com/in/whalter-duarte/" target="_blank"><button class="homebuttom">Likedin</button></a>
+              <a href="https://wa.me/5561991993353" target="_blank"><button class="homebuttom">Whatsapp</button></a>
+              <a href="https://whalter.com.br/WhalterDEV.pdf" target="_blank"><button class="homebuttom">Curriculo</button></a>
+            </div>
+          </div>
+
+          <div
+            data-aos="fade-up-left"
+            data-aos-duration="800"
+            class="contentright"
+          >
+            <img src="assets/img/astronauta.png" alt="" />
+          </div>
+        </div>
+    </div>
+
+    <!--Sobre-->
+    <div id="sobre"
+    > 
+    <h1  data-aos="fade-up"
+    data-aos-duration="1000"><cor class="main-title">Sobre</cor></h1>
+
+    <div class="contentSobre">
+     
+
+      <div class="imgSobre"  
+      data-aos="fade-right"
+      data-aos-duration="1000"> 
+        <img src="./assets/img/whalter.png" alt="">
+      </div>
+      
+      <div id="textSob"   
+      data-aos="fade-up"
+      data-aos-duration="2000"> 
+          <p>Sou um entusiasta de tecnologia apaixonado por resolver desafios complexos e criar soluções inovadoras. Minha jornada começou em 2015, explorando HTML, CSS e JavaScript,   atualmente estou cursando Ciências da Computação.</p>
+          <br><p>Estou comprometido com o aprendizado constante, atualmente focado em Node.js, React e React Native. Estou empolgado para contribuir em projetos inovadores e colaborar no mundo da tecnologia.</p>
+          <br><p>Se quiser saber mais, fique à vontade para entrar em contato. Estou sempre aberto a novas oportunidades e parcerias. Vamos juntos em direção a novos horizontes! 🚀</p>
+    </div>
+    
+    </div>
+  
+    </div>
+
+   <!--Barra de andamento-->
+    <div  id="habilidades">
+   <div class="container">
+
+    <div class="main-title">
+      <h1><cor>Habilidades</cor></h1>
+      <p>Stack Tecnológica e Ferramentas de Desenvolvimento.</p>
+    </div>
+  
+  
+  
+    <div class="row" 
+    data-aos="fade-up"
+      data-aos-duration="1000"
+    >
+      
+    
+  
+      <section class="col">
+        
+        <div class="sub-title">
+          <h2>Frontend</h2>
+        </div>
+  
+        <div class="skills-container"
+        
+        >
+          
+          <div class="skill"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          >
+            <div class="subject">HTML</div>
+            <div class="progress-bar" value="94%">
+              <div class="progress-line" style="max-width: 94%"></div>
+            </div>
+          </div>
+  
+          <div class="skill">
+            <div class="subject">CSS</div>
+            <div class="progress-bar" value="83%">
+              <div class="progress-line" style="max-width: 83%"></div>
+            </div>
+          </div>
+  
+                  <div class="skill">
+            <div class="subject">JavaScript</div>
+            <div class="progress-bar" value="88%">
+              <div class="progress-line" style="max-width: 88%"></div>
+            </div>
+          </div>
+  
+          <div class="skill">
+            <div class="subject">React</div>
+            <div class="progress-bar" value="43%">
+              <div class="progress-line" style="max-width: 44%"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="subject">React Native</div>
+            <div class="progress-bar" value="38%">
+              <div class="progress-line" style="max-width: 38%"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="subject">TailwindCSS</div>
+            <div class="progress-bar" value="68%">
+              <div class="progress-line" style="max-width: 68%"></div>
+            </div>
+          </div>
+  
+        </div>
+      </section>
+  
+  
+      <section class="col">
+        
+        <div class="sub-title">
+          <h2>Backend</h2>
+        </div>
+  
+        <div class="skills-container"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        >
+          
+          <div class="skill">
+            <div class="subject">NodeJS</div>
+            <div class="progress-bar" value="90%">
+              <div class="progress-line" style="max-width: 90%"></div>
+            </div>
+          </div>
+  
+         
+          <div class="skill">
+            <div class="subject">Typescript</div>
+            <div class="progress-bar" value="100%">
+              <div class="progress-line" style="max-width: 100%"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="subject">Banco de dados</div>
+            <div class="progress-bar" value="100%">
+              <div class="progress-line" style="max-width: 100%"></div>
+            </div>
+          </div>
+  
+          <div class="skill">
+            <div class="subject">Docker</div>
+            <div class="progress-bar" value="71%">
+              <div class="progress-line" style="max-width: 91%"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="subject">PhP</div>
+            <div class="progress-bar" value="20%">
+              <div class="progress-line" style="max-width: 20%"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="subject">Larvarel</div>
+            <div class="progress-bar" value="20%">
+              <div class="progress-line" style="max-width: 20%"></div>
+            </div>
+          </div>
+  
+        </div>
+      </section>
+  
+     
+    </div>
+  
+  </div>
+
+ 
+ 
+    </section>
+    
+
+    </div>
+
+    <!--Descrição habilidades-->
+    <div id="habtime">
+ <h1 style="font-size: 15px; margin-bottom: 20px; text-align: center;"><cor ></cor>Linha do tempo</h1>
+    <div class="timeline">
+  
+      <div class="timeline-empty">
+      </div>
+
+
+
+   <div class="timeline-middle">
+       <div class="timeline-circle"></div>
+   </div>
+   <div class="timeline-component timeline-content"
+   data-aos="fade-left"
+   data-aos-duration="3000"
+   >
+    <div class="anoDesc" ><h3><cor>2022</cor></h3>
+      <p>Qualificações certificadas</p></div>
+      <div class="certificado">
+        <br>
+        <p>HTML e CSS</p>
+        <br><hr><br>
+       
+        <p>JavaScript</p>
+        <br><hr><br>
+        <p>Typescript</p>
+        <br><hr><br>
+        <p>NodeJS</p>
+        <br><hr><br>
+        <p>Git e GitHub</p>
+        <br><hr><br>
+        <p>Mysql, Postgresql e MongoDB</p>
+        <br><hr><br>
+        <p>React</p>
+        <br><hr><br>
+        <p>React Native</p>
+       </div>
+</div>
+    <div class="timeline-component timeline-content " 
+    data-aos="fade-right"
+    data-aos-duration="3000">
+             
+      <div class="anoDesc"><h3><cor>2023 - UniAmerica </cor></h3>
+        <p>Ciencias da Computação</p></div>
+        <div class="certificado">
+         <br>
+         <p>Arquitetura e engenharia de software 
+         </p>
+         <br>
+         <hr>
+         <br>
+         <p>Programming Basics</p>
+        </div>
+      
+    </div>
+    <div class="timeline-middle">
+        <div class="timeline-circle"></div>
+    </div>
+    <div class="timeline-empty">
+    </div>
+
+    <div class="timeline-empty">
+    </div>
+
+   <div class="timeline-middle">
+       <div class="timeline-circle"></div>
+   </div>
+   <div class=" timeline-component timeline-content"
+   data-aos="fade-left"
+   data-aos-duration="3000"
+   >
+    <h3><cor>Atualmente... </cor></h3>
+    <br>
+   <div class="anoDesc">
+    <h3>
+
+      Atualmente focado em NodeJS, React e React Native
+    </h3>
+    <br>
+    <img class="logoPort" src="./assets/svg/Node.js_logo.svg" alt="">
+    <img class="logoPort" src="./assets/svg/react.png" alt="">
+   </div>
+  
+</div>
+
+
+
+
+
+</div></div>
+
+    <!-- Portifolio -->
+        <div id="portifoliomain">
+            <br>
+             <div class="main-title" ><h1 style=" text-align: center;"><cor> Portifólio</cor></h1>
+              <p style=" text-align: center;">Porjetos realizados.</p></div><br>
+              
+            
+          <div class="card-container" >
+            <div class="card c1" 
+               data-aos="fade-right"
+               data-aos-duration="3000" >                                 
+               <div class="namePortProject" class="pizza" id="namePortProject">
+                   <h1>Pizzaria</h1>
+                   <a class="prproject" href="">Projeto carrinho de compras</a>
+                   <a class="viewproject" href="https://pizza.whalter.com.br/" target="_blank">Visualizar projeto</a>
+               </div>
+           </div>
+            <div class="card c2"
+            data-aos="fade-left"
+           data-aos-duration="3000"
+            >
+             <div class="namePortProject" id="namePortProject">
+               <h1>Landing page Mario</h1>
+               <a class="prproject" href="">Criei uma página de destino responsiva inspirada no universo do Mario.</a>
+               <a class="viewproject" href="https://mario.whalter.com.br/" target="_blank">Visualizar projeto</a>
+             </div>
+            </div>
+ 
+ 
+            <div class="card c3" 
+             data-aos="fade-right"
+             data-aos-duration="3000"
+            >
+             <div class="namePortProject" id="namePortProject">
+               <h1>Clima</h1>
+               <a class="prproject" href="">Consumi uma API JSON para oferecer informações climáticas em tempo real.</a>
+               <a class="viewproject" href="https://clima.whalter.com.br/" target="_blank">Visualizar projeto</a>
+             </div>
+            </div>
+ 
+ 
+            <div class="card c4" 
+            data-aos="fade-left"
+           data-aos-duration="3000"
+            >
+             <div class="namePortProject" id="namePortProject">
+               <h1>Calculadora de IMC</h1>
+               <a class="prproject" href="">Desenvolvi uma calculadora para o Índice de Massa Corporal.</a>
+               <a class="viewproject" href=" http://imc.whalter.com.br/" target="_blank">Visualizar projeto</a>
+             </div>
+            </div>
+ 
+            <div   data-aos="fade-right"
+            data-aos-duration="3000" class="card c5"
+          
+            >
+             <div class="namePortProject" id="namePortProject">
+               <h1>Canil NodeJS</h1>
+               <a class="prproject" href="">Neste projeto, utilizamos o Node.js e diversas bibliotecas.</a>
+               <a class="viewproject" href="https://github.com/whalterduarte/Nodets-CANIL" target="_blank">Visualizar repositório</a>
+             </div>
+            </div>
+ 
+ 
+            <div class="card c6"
+            data-aos="fade-left"
+            data-aos-duration="3000">
+ 
+            <a href="https://github.com/whalterduarte?tab=repositories">Repositório de porjetos</a>
+            </div>
+          </div>
+         </div>
+        </div>
+
+
+
+        <!--Contato e conhecimentos-->
+
+        <footer id="footer">
+          <div id="mainfooter">
+            <div id="contatofooter">
+              <h1>Contato</h1><br>
+              
+              <p><h2>Telefone<br></h2>(61) 9 9199-3353  <a href="https://wa.me/5561991993353"><img src="./assets/svg/whatsapp.svg" alt=""></a> </p>
+              <br>
+              <p>Email: whalterdev@gmail.com</p>
+            
+            
+            </div>
+            <div id="conhecimentosfooter"><h1>Conhecimentos .</h1>
+            
+            <div id="icones">
+              <img src="./assets/img/html5-e-css3.jpg" alt="">
+              <img src="./assets/img/javascript.jpg" alt="">
+              <img src="./assets/img/nodejs.jpg" alt="">
+              <img src="./assets/img/reactjs.jpg" alt="">
+              <img src="./assets/img/react-native.jpg" alt="">
+              <img src="./assets/img/tailwindcss.jpg" alt="">
+              <img src="./assets/img/typescript.jpg" alt="">
+              <img src="./assets/img/git.jpg" alt="">
+              <img src="./assets/img/database.jpg" alt="">
+            </div>
+            </div>
+          </div>
+        </footer>
+ 
+ 
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+    <script
+      crossorigin="anonymous"
+      src="https://unpkg.com/aos@2.3.1/dist/aos.js"
+    ></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
